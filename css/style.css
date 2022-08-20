@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-family: 'Exo 2', sans-serif;
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/*--- style cho tất cả các cột trên có padding 15px*/
+[class*="col-"] {
+  padding: 10px;
+ /* border: 1px solid red;*/
+}
+.row {  display: flex; flex-wrap: wrap}
+.border{ border: 1px solid #ff0}
+/*------ các kiểu style cho image--------------*/
+.img-100{ width: 100%; height: auto}
+.img-circle{ border-radius: 50%}
+
+/*------------------style hệ thống màu-------------*/
+.bg-primary { background-color: #1CDDD1}
+.text-primary{ color: #A2A2A2}
+.btn-primary
+{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 10px;
+	border-radius: 20px; border: 1px solid #fff
+}
+.btn-primary:hover {
+	background-color: #FFFFFF; color: #000000
+}
+/*---- hết style màu chính--- den style cho màu phụ*/
+.bg-secondery{ background-color: #FFC46B}
+.text-secondery{ color: #FFC46B}
+.btn-secondery
+{
+	background-color: #ddddd;
+	color: #000000;
+	text-decoration: none;
+	padding: 10px 10px;
+	border-radius: 0px;border: 1px solid #000000
+}
+.btn-secondery:hover {background-color: #000000; color: #FFFFFF}
+.text-light { color: #fff}
+.text-black{ color: #000}
+
+.center{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px
+}
+.btn-watch
+{
+	color: rgba(160,0,2,0.81);
+	text-decoration: none;
+	padding: 20px 30px;
+}
+.btn-watch:hover {
+	background-color: #AA0002; color: black;
+	border-radius: 50px; border: 2px solid 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

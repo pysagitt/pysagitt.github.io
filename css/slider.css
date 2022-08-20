@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: black; color: rgba(160,0,2,0.81);
+}
+.noidung h1{color: #FF7C2F}
+h1{color: #FF3F00}
+footer{min-height: 150px; background: black; padding: 20px 0; color: #FF7C2F}
+p.footer a{display: block; padding:10px 0;
+	color: #fff; text-decoration: none}
+header{
+	background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 12px );
+-webkit-backdrop-filter: blur( 12px );
+	padding-top: 20px; width: 100%;
+	position: fixed; z-index: 1000;
+	 
+}	
+.container{
+	width: 990px;
+	margin: 0 auto; display: flex;
+	text-align: center;
+	padding-bottom: 10px
+	
+}
+.logo{width: 20%; color: white}
+nav{width: 65%}
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	text-align: center
+}
+nav li{margin: 0 20px}
+nav li a{color: #FF7C2F;
+	text-decoration: none
+}
+.banner{
+	height: 100vh;
+	overflow: hidden;
+	position: relative
+}
+.banner img{
+	width: 100%; height: 100%;
+	object-fit: cover
+}
+.banner1 video{
+	width: 100%; height: 100%;
+	object-fit: cover
+}
+.banner1{
+	height: 100vh;
+	overflow: hidden;
+	position: relative
+}
+.your-class div{
+	width: 100%; height: 50vh;
+	overflow: hidden;
+	position: relative;
+}
+.you-class div img{
+	margin: 20px;
+	width: 90%;
+	vertical-align: center;
+}
+
+.hover{
+	width: 100%; height: 0;
+	background:  rgba(255,0,4,0.49);
+	color: white;
+	position: absolute;
+	bottom: 0; right: 0;
+	visibility: visible;
+	transition: all;
+	opacity: 0;
+}
+.your-class:hover .ho{
+	opacity: 2;
+	visibility: visible;
+	height: 100px; 
+}
+
+.content{
+	/*background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 12px );
+-webkit-backdrop-filter: blur( 12px );*/
+
+	position: absolute;
+	color: white;
+	text-align: center;
+	padding: 24px;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%)
+}
+.noidung{
+	padding: 40px
+}
+
+.p-0{padding: 0}
+
+.bannerabout{ position: relative; padding-top: 50px} 
+
+.lopphu{display: block; padding-bottom: 50px;
+	width: 100%; height: 100%;
+	background-color: rgba(0,0,0,0.65);position: absolute;
+	left: 0; bottom: 0}
+
+.container1{
+	width: 1000px;
+	padding: 20px;
+	display: flex;
+	margin: 0 auto;
+}
+.box-lg{
+	width: 200px;
+	height: 200px;
+	margin: 1%;
+	background: pink;
+}
+.box1{
+	padding: 10px;
+	margin: 10px;}
+.box{
+	width: 500px; height: 500px;
+	padding: 10px}
+
+
+
+
+
+
+
